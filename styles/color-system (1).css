@@ -1,0 +1,211 @@
+/* 🌄 FULL DESERT WELLNESS COLOR SYSTEM (PASTE INTO ELEMENTOR AI) */
+/* Supports ChiroGoAZ, AromaHMT, and cinematic sunrise homepage system. */
+/*  */
+/* 1. GLOBAL COLOR TOKENS (Primary System – Used Across All Brands) */
+/* Global Colors: */
+:root {
+  --color-primary: #1E2D45;        /* Deep Navy */
+  --color-primary-dark: #1B3446;   /* Slate Teal */
+  --color-primary-light: #2F6690;  /* Canyon Blue */
+
+  --color-accent-1: #F1D464;       /* Desert Gold */
+  --color-accent-2: #F26419;       /* Sun Ember Orange */
+  --color-accent-3: #D46951;       /* Clay Rose */
+  --color-accent-4: #00C1CA;       /* Aqua Core */
+
+  --color-neutral-100: #FFFFFF;    /* Pure White */
+  --color-neutral-200: #F7F4EF;    /* Soft Linen */
+  --color-neutral-300: #EED9C4;    /* Sandstone */
+  --color-neutral-400: #7A7A7A;    /* Warm Grey */
+  --color-neutral-500: #54595F;    /* Charcoal Grey */
+  --color-neutral-900: #1E2D45;    /* Deep Navy reused */
+
+  --color-success: #61CE70;        /* Desert Green */
+  --color-warning: #F1D464;        /* Desert Gold */
+  --color-danger: #D46951;         /* Clay Rose */
+
+  /* These are your “base tokens.” */
+  /* Elementor will map these into typography, buttons, and backgrounds automatically. */
+  /* Elementor will map these into typography, buttons, and backgrounds automatically. */
+  /* Elementor will map these into typography, buttons, and backgrounds automatically. */
+  /*  */
+  /*  */
+  /* 2. BRAND MODE: CHIROGOAZ (Strong, Athletic, Corrective) */
+  /* Brand-ChiroGoAZ: */
+  --chiro-primary: #1E2D45;      /* Deep Navy */
+  --chiro-secondary: #2F6690;    /* Canyon Blue */
+  --chiro-accent: #F1D464;       /* Desert Gold */
+  --chiro-success: #61CE70;      /* Desert Green */
+  --chiro-callout: #F26419;      /* Sun Ember Orange */
+
+  --chiro-gradient-main:
+    linear-gradient(135deg, var(--chiro-primary) 0%, var(--chiro-secondary) 25%, var(--chiro-accent) 80%); 
+  
+  --chiro-card-bg: #F7F4EF;
+  --chiro-border: #1B3446;
+
+  /* Use when the AI is building chiropractic pages, funnels, and services. */
+
+  /* 3. BRAND MODE: AROMAHMT (Soft, Spa, Calming) */
+  /* Brand-AromaHMT: */
+  --aroma-primary: #6E8572;      /* Sage */
+  --aroma-secondary: #EED9C4;    /* Sandstone */ 
+  --aroma-accent: #F7F4EF;       /* Linen */ 
+  --aroma-callout: #F26419;      /* Sun Ember Orange */
+  --aroma-accent-rose: #D46951;  /* Clay Rose */
+
+  --aroma-gradient-main:
+    linear-gradient(135deg, var(--aroma-primary) 0%, var(--aroma-secondary) 50%, var(--aroma-accent) 100%);
+
+  --aroma-card-bg: #FFFFFF;
+  --aroma-border: #6E8572;
+
+  /* Use when building massage, spa, sensory, and relaxation pages. */
+
+  /* 4. DESERT SUNRISE / SUNSET GRADIENT SET (HERO, DIVIDERS, OVERLAYS) */
+  /* These are ready-to-paste presets for Elementor. */
+  /* A. Sunrise Evolution (Homepage Hero) */
+  /* Cinematic overlay for your video hero. */
+  --gradient-sunrise-evolution:
+  linear-gradient(
+    180deg,
+    rgba(30,45,69,0.80) 0%,
+    rgba(242,198,194,0.50) 35%,
+    rgba(241,212,100,0.45) 60%,
+    rgba(242,100,25,0.40) 80%,
+    rgba(238,217,196,0.40) 100%
+  );
+
+  /* B. Sunset Horizon */
+  --gradient-sunset-horizon:
+  linear-gradient(
+    180deg,
+    #1E2D45 0%,
+    #2F6690 25%,
+    #F26419 70%,
+    #D46951 100%
+  );
+
+  /* C. Desert Glow Soft */
+  --gradient-desert-glow:
+  linear-gradient(
+    135deg,
+    #F7F4EF 0%,
+    #EED9C4 50%,
+    #6E8572 100%
+  );
+
+  /* D. Nightfall Desert Mist */
+  --gradient-nightfall:
+  linear-gradient(
+    135deg,
+    #1E2D45 0%,
+    #1B3446 50%,
+    #54595F 100%
+  );
+
+  /* These four gradients cover every background scenario needed. */
+
+  /* 5. OVERLAY TOKENS (Used on Images, Videos, Headers) */
+  /* Overlays: */
+  --overlay-dark-70: rgba(30,45,69,0.70);
+  --overlay-dark-60: rgba(30,45,69,0.60);
+  --overlay-dark-40: rgba(30,45,69,0.40);
+
+  --overlay-gold-40: rgba(241,212,100,0.40);
+  --overlay-sage-40: rgba(110,133,114,0.40);
+  --overlay-coral-35: rgba(242,100,25,0.35);
+
+  /* These are used automatically when the AI generates hero blocks or image overlays. */
+
+  /* 6. BUTTON PRESETS (Primary/Secondary/Ghost) */
+  /* Primary Button (Booking + Membership) */
+  /* Chiro or Co-Branded: */
+  /* Button-Primary: */
+  --button-primary-background: #F1D464;
+  --button-primary-color: #1E2D45;
+  --button-primary-hover-background: #F26419;
+  --button-primary-hover-color: #FFFFFF;
+
+  /* Secondary Button (Overview, Learn More) */
+  /* Button-Secondary: */
+  --button-secondary-background: #1E2D45;
+  --button-secondary-color: #FFFFFF;
+  --button-secondary-border: 2px solid #F1D464;
+  --button-secondary-hover-background: #2F6690;
+
+  /* Ghost / Outline Button (Spa, Light Sections) */
+  /* Button-Ghost: */
+  --button-ghost-background: transparent;
+  --button-ghost-border: 2px solid #6E8572;
+  --button-ghost-color: #6E8572;
+  --button-ghost-hover-background: rgba(110,133,114,0.10);
+
+
+  /* 7. SEMANTIC COLOR ROLES (AI UNDERSTANDS THESE BEST) */
+  /* These tell the AI “what type of color” to use, which helps generate consistent UI. */
+  /* Semantic Roles: */
+  --color-bg: #FFFFFF;
+  --color-bg-soft: #F7F4EF;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #EED9C4;
+
+  --color-heading: #1E2D45;
+  --color-body: #54595F;
+  --color-body-light: #7A7A7A;
+
+  --color-border: #EED9C4;
+  --color-divider: #F7F4EF;
+
+  --color-link: #2F6690;
+  --color-link-hover: #F26419;
+
+  --color-cta: #F1D464;
+  --color-cta-hover: #F26419;
+
+
+  /* 8. PALETTE PRESET GROUPS */
+  /* ChiroGoAZ Palette Group */
+  /* Chiro Palette: */
+  /* #1E2D45 */
+  /* #1B3446 */
+  /* #2F6690 */
+  /* #F1D464 */
+  /* #F26419 */
+  /* #D46951 */
+  /* #00C1CA */
+
+  /* AromaHMT Palette Group */
+  /* Aroma Palette: */
+  /* #6E8572 */
+  /* #EED9C4 */
+  /* #F7F4EF */
+
+  /* Desert Neutral Group */
+  /* Desert Neutral: */
+  /* #F7F4EF */
+  /* #EED9C4 */
+  /* #7A7A7A */
+  /* #54595F */
+  /* #1E2D45 */
+
+  /* Sunrise Cinematic Group */
+  /* Sunrise Cinematic: */
+  /* #F2C6C2 */
+  /* #F1D464 */
+  /* #F26419 */
+  /* #D46951 */
+  /* #EED9C4 */
+  /* #1E2D45 */
+
+
+  /* 9. TYPOGRAPHY PRESET TOKENS (for completeness) */
+  /* Include these so the AI builder stops trying to invent new fonts. */
+  /* Typography: */
+  --font-heading: "Raleway", sans-serif;
+  --font-body: "Quicksand", sans-serif;
+
+  --font-logo-chiro: "Edo";         /* logo only */
+  --font-logo-aroma: "Breathe";     /* logo only */
+}
+
